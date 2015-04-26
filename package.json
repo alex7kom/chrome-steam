@@ -1,0 +1,15 @@
+{
+  "name": "chrome-steam",
+  "version": "1.0.0",
+  "description": "Allows to run node-steam as part of a Chrome App.",
+  "author": "Alexey Komarov <alex7kom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^9.0.8",
+    "chrome-net": "^2.4.2",
+    "gulp": "^3.8.11",
+    "steam": "^0.6.8",
+    "through": "^2.3.7",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

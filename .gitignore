@@ -1,0 +1,4 @@
+dist/main.js
+node_modules/*
+!node_modules/my-fs
+!node_modules/my-process
