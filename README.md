@@ -26,6 +26,6 @@ In Google Chrome load `dist` subdirectory as unpacked extension, then open `back
 
 Review `Gulpfile.js` to see how everything is done.
 
-## Lisense
+## Liсense
 
 MIT
