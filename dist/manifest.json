@@ -17,6 +17,7 @@
     }
   },
   "permissions": [
-    "storage"
+    "storage",
+    "https://api.steampowered.com/"
   ]
 }
