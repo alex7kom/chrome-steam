@@ -36,7 +36,7 @@ chrome.storage.local.get(['accountName', 'password', 'shaSentryfile'], function 
   bot.logOn({
     accountName: items.accountName,
     password: items.password,
-    shaSentryfile: new Buffer(items.shaSentryfile)
+    shaSentryfile: new Buffer(JSON.parse(items.shaSentryfile))
   });
 });
 
