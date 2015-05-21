@@ -5,7 +5,7 @@
   "manifest_version": 2,
   "app": {
     "background": {
-      "scripts": ["main.js"]
+      "scripts": ["steam.min.js", "example.js"]
     }
   },
   "sockets": {

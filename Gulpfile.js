@@ -43,8 +43,9 @@ gulp.task('files', function() {
 });
 
 gulp.task('browserify', function() {
-  browserify('./main.js', {
-      ignoreMissing: true
+  browserify('./index.js', {
+      ignoreMissing: true,
+      standalone: 'Steam'
     })
     .transform(function (file) {
       var data = '';
@@ -64,7 +65,7 @@ gulp.task('browserify', function() {
       }
     }, { global: true })
     .bundle()
-    .pipe(source('main.js'))
+    .pipe(source('steam.js'))
     .pipe(gulp.dest('./dist'));
 });
 

@@ -1,5 +1,3 @@
-var Steam = require('steam');
-
 var bot = new Steam.SteamClient();
 
 bot.on('debug', function (msg) {
@@ -36,7 +34,7 @@ chrome.storage.local.get(['accountName', 'password', 'shaSentryfile'], function 
   bot.logOn({
     accountName: items.accountName,
     password: items.password,
-    shaSentryfile: new Buffer(JSON.parse(items.shaSentryfile))
+    shaSentryfile: new Steam.Buffer(JSON.parse(items.shaSentryfile))
   });
 });
 

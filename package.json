@@ -1,15 +1,29 @@
 {
   "name": "chrome-steam",
-  "version": "1.0.0",
-  "description": "Allows to run node-steam as part of a Chrome App.",
+  "version": "0.1.0",
+  "description": "Interface directly with Steam servers from Chrome Apps.",
   "author": "Alexey Komarov <alex7kom@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "keywords": [
+    "steam"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alex7Kom/chrome-steam.git"
+  },
+  "browser": "dist/steam.js",
+  "devDependencies": {
     "browserify": "^9.0.8",
     "chrome-net": "^2.4.2",
     "gulp": "^3.8.11",
-    "steam": "^0.6.8",
+    "steam": "0.6.8",
     "through": "^2.3.7",
+    "uglifyjs": "^2.4.10",
     "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "make": "npm run-script compile && npm run-script minify",
+    "compile": "gulp",
+    "minify": "uglifyjs dist/steam.js > dist/steam.min.js"
   }
 }
