@@ -1,6 +1,6 @@
 {
   "name": "chrome-steam",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Interface directly with Steam servers from Chrome Apps.",
   "homepage": "https://github.com/Alex7Kom/chrome-steam",
   "authors": [
