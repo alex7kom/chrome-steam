@@ -1,0 +1,20 @@
+{
+  "name": "chrome-steam",
+  "version": "0.1.0",
+  "description": "Interface directly with Steam servers from Chrome Apps.",
+  "homepage": "https://github.com/Alex7Kom/chrome-steam",
+  "authors": [
+    "Alexey Komarov <alex7kom@gmail.com>"
+  ],
+  "keywords": [
+    "steam"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

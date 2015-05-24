@@ -10,6 +10,12 @@ This is basically a set of tools and hacks to make [node-steam](https://github.c
 npm install chrome-steam
 ```
 
+or 
+
+```
+bower install chrome-steam
+```
+
 or just [download the latest version](https://github.com/Alex7Kom/chrome-steam/releases/latest) from Github.
 
 ## Usage
