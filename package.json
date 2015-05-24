@@ -23,6 +23,6 @@
   "scripts": {
     "make": "npm run-script compile && npm run-script minify",
     "compile": "gulp",
-    "minify": "uglifyjs dist/steam.js > dist/steam.min.js"
+    "minify": "uglifyjs dist/steam.js --screw-ie8 --compress --output dist/steam.min.js"
   }
 }
